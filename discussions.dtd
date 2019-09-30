@@ -1,14 +1,14 @@
 <?xml encoding="UTF-8"?>
 
-<!ELEMENT discussion (topic,viewCount,subject,question,postingUser,replies*)>
+<!ELEMENT discussion (topic,viewCount,subject,question,postingUser,replies)>
+<!ATTLIST discussion device (iPhone|Mac|AppleWatch|iPad|iPod|AppleTV|HomePod) #REQUIRED>
 <!ATTLIST discussion
-  device (iPhone|'Apple Watch'|iPad|Mac|iPod|Apple TV|HomePod) #REQUIRED
   discussionId NMTOKEN #REQUIRED
-  postingDate PCDATA #REQUIRED>
+  postingDate CDATA #REQUIRED>
 
 <!ELEMENT topic (#PCDATA)>
 
-<!ELEMENT viewCount (#NMTOKEN)>
+<!ELEMENT viewCount (#PCDATA)>
 
 <!ELEMENT subject (#PCDATA)>
 
@@ -31,7 +31,7 @@
 <!ELEMENT reply (replies*|replyBody|replyingUser)*>
 <!ATTLIST reply
   helpful (yes|no) #IMPLIED
-  replyDate PCDATA #REQUIRED
+  replyDate CDATA #REQUIRED
   solved (yes|no) #IMPLIED>
 
 <!ELEMENT replyBody (#PCDATA)>
