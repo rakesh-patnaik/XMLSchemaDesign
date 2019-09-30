@@ -1,6 +1,6 @@
 <?xml encoding="UTF-8"?>
 
-<!ELEMENT discussion (topic,viewCount,subject,question,postingUser,replies)>
+<!ELEMENT discussion (topic,viewCount?,subject,question,postingUser,replies*)>
 <!ATTLIST discussion device (iPhone|Mac|AppleWatch|iPad|iPod|AppleTV|HomePod) #REQUIRED>
 <!ATTLIST discussion
   discussionId NMTOKEN #REQUIRED
@@ -18,17 +18,17 @@
 <!ATTLIST postingUser
   userId NMTOKEN #REQUIRED>
 
-<!ELEMENT userLevel (levelName,uesrPoints)>
+<!ELEMENT userLevel (levelName,userPoints)>
 
 <!ELEMENT levelName (#PCDATA)>
 
-<!ELEMENT uesrPoints (#PCDATA)>
+<!ELEMENT userPoints (#PCDATA)>
 
 <!ELEMENT profileName (#PCDATA)>
 
 <!ELEMENT replies (reply)*>
 
-<!ELEMENT reply (replies*|replyBody|replyingUser)*>
+<!ELEMENT reply (replyingUser|replyBody|replies*)*>
 <!ATTLIST reply
   helpful (yes|no) #IMPLIED
   replyDate CDATA #REQUIRED

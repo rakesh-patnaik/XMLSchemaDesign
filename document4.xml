@@ -11,7 +11,7 @@
     <postingUser userId="2211">
         <userLevel>
             <levelName>Level 1</levelName>
-            <uesrPoints>13</uesrPoints>
+            <userPoints>13</userPoints>
         </userLevel>
         <profileName>DaliGR</profileName>
     </postingUser>
@@ -20,7 +20,7 @@
             <replyingUser userId="33221">
                 <userLevel>
                     <levelName>Level 1</levelName>
-                    <uesrPoints>14</uesrPoints>
+                    <userPoints>14</userPoints>
                 </userLevel>
                 <profileName>PaulTJ</profileName>
             </replyingUser>

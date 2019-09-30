@@ -12,7 +12,7 @@
 	<postingUser userId="5551">
 		<userLevel>
 			<levelName>Level 1</levelName>
-			<uesrPoints>8</uesrPoints>
+			<userPoints>8</userPoints>
 		</userLevel>
 		<profileName>CXI</profileName>
 	</postingUser>
@@ -21,7 +21,7 @@
 			<replyingUser userId="6661">
 				<userLevel>
 					<levelName>Level 6</levelName>
-					<uesrPoints>19709</uesrPoints>
+					<userPoints>19709</userPoints>
 				</userLevel>
 				<profileName>Johnathan Burger</profileName>
 			</replyingUser>
@@ -34,7 +34,7 @@
 			<replyingUser userId="5551">
 				<userLevel>
 					<levelName>Level 1</levelName>
-					<uesrPoints>8</uesrPoints>
+					<userPoints>8</userPoints>
 				</userLevel>
 				<profileName>CXI</profileName>
 			</replyingUser>
@@ -47,7 +47,7 @@
 					<replyingUser userId="7771">
 						<userLevel>
 							<levelName>Level 6</levelName>
-							<uesrPoints>10213</uesrPoints>
+							<userPoints>10213</userPoints>
 						</userLevel>
 						<profileName>y_p_w</profileName>
 					</replyingUser>

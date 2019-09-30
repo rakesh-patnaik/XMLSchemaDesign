@@ -15,7 +15,7 @@
     <postingUser userId="6661">
         <userLevel>
             <levelName>Level  1</levelName>
-            <uesrPoints>8</uesrPoints>
+            <userPoints>8</userPoints>
         </userLevel>
         <profileName>nickciava98</profileName>
     </postingUser>
@@ -24,7 +24,7 @@
             <replyingUser userId="5551">
                 <userLevel>
                     <levelName>Level 1</levelName>
-                    <uesrPoints>4</uesrPoints>
+                    <userPoints>4</userPoints>
                 </userLevel>
                 <profileName>iPhoneUser404</profileName>
             </replyingUser>
@@ -38,7 +38,7 @@
                     <replyingUser userId="6661">
                         <userLevel>
                             <levelName>Level 1</levelName>
-                            <uesrPoints>8</uesrPoints>
+                            <userPoints>8</userPoints>
                         </userLevel>
                         <profileName>nickciava98</profileName>
                     </replyingUser>
