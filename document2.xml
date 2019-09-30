@@ -1,7 +1,8 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE discussion PUBLIC "discussions.apple.com/cs598"
   "https://raw.githubusercontent.com/rakesh-patnaik/XMLSchemaDesign/master/discussions.dtd">
-<discussion postingDate="Sep 28, 2019 11:00 AM" discussionId="112233" device="iPhone" topic="Using iPhone">
+<discussion postingDate="Sep 28, 2019 11:00 AM" discussionId="112233" device="iPhone">
+    <topic>Using iPhone</topic>
     <viewCount>201</viewCount>
     <subject>iPhone X iOS 13 Dark Mode Bug</subject>
     <question>

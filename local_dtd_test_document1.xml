@@ -1,6 +1,5 @@
 <?xml version="1.0" standalone="no" ?>
-<!DOCTYPE discussion PUBLIC "discussions.apple.com/cs598"
-  "https://raw.githubusercontent.com/rakesh-patnaik/XMLSchemaDesign/master/discussions.dtd">
+<!DOCTYPE discussion SYSTEM "discussions.dtd">
 <discussion postingDate="Sep 29, 2019 11:07 AM"
 	discussionId="12345" device="iPhone">
 	<topic>iPhone Hardware</topic>
