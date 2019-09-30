@@ -2,7 +2,7 @@
 
 <!ELEMENT discussion (topic,viewCount,subject,question,postingUser,replies*)>
 <!ATTLIST discussion
-  device (iPhone|Apple Watch|iPad|Mac|iPod|Apple TV|HomePod) #REQUIRED
+  device (iPhone|'Apple Watch'|iPad|Mac|iPod|Apple TV|HomePod) #REQUIRED
   discussionId NMTOKEN #REQUIRED
   postingDate PCDATA #REQUIRED>
 
