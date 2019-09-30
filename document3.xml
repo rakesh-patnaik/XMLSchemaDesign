@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE discussion PUBLIC "discussions.apple.com/cs598"
+  "https://raw.githubusercontent.com/rakesh-patnaik/XMLSchemaDesign/master/discussions.dtd">
+<discussion postingDate="Sep 26, 2019 1:42 PM" discussionId="222333" device="Apple Watch" topic="Using Apple Watch">
+    <viewCount>23</viewCount>
+    <subject>Anyone having issues with their watch locking while on their wrist.</subject>
+    <question>
+        Is anyone else having an issue with their watch constantly locking for no reason. 
+        I haven't changed the tightness and never had a problem prior to the new update. 
+        Its very annoying.
+    </question>
+    <postingUser userId="7771">
+        <userLevel>
+            <levelName>Level 1</levelName>
+            <uesrPoints>4</uesrPoints>
+        </userLevel>
+        <profileName>Faunsnyder</profileName>
+    </postingUser>
+    <replies>
+        <reply replyDate="Sep 28, 2019 8:29 PM">
+            <replyingUser userId="6661">
+                <userLevel>
+                    <levelName>Community Specialist</levelName>
+                    <uesrPoints>100023</uesrPoints>
+                </userLevel>
+                <profileName>revbill222</profileName>
+            </replyingUser>
+            <replyBody>
+                Hello Faunsnyder and welcome to Apple Support Communities. 
+                It seems like you are having some issues with the Apple Watch locking while you are wearing it. 
+                I'll be happy to help look into this with you. When you say "locking" do you mean that you have to enter the passcode? 
+                If you open the Watch app on the paired iPhone and scroll to Passcode and tap that, is Wrist Detection enabled?
+            </replyBody>
+        </reply>
+    </replies>
+</discussion>

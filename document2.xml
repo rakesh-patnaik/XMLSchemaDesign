@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE discussion PUBLIC "discussions.apple.com/cs598"
+  "https://raw.githubusercontent.com/rakesh-patnaik/XMLSchemaDesign/master/discussions.dtd">
+<discussion postingDate="Sep 28, 2019 11:00 AM" discussionId="112233" device="iPhone" topic="Using iPhone">
+    <viewCount>201</viewCount>
+    <subject>iPhone X iOS 13 Dark Mode Bug</subject>
+    <question>
+        Hi,
+            I have an issue with my iPhone X after iOS 13 update. 
+            I started to use dark mode because I like it, but when brightness is not set on 100% 
+            I see some annoying flickering during scrolling where Dark Grey and Black content are overlapped e.g. settings app
+    </question>
+    
+    <postingUser userId="6661">
+        <userLevel>
+            <levelName>Level  1</levelName>
+            <uesrPoints>8</uesrPoints>
+        </userLevel>
+        <profileName>nickciava98</profileName>
+    </postingUser>
+    <replies>
+        <reply replyDate="Sep 28, 2019 5:54 PM">
+            <replyingUser userId="5551">
+                <userLevel>
+                    <levelName>Level 1</levelName>
+                    <uesrPoints>4</uesrPoints>
+                </userLevel>
+                <profileName>iPhoneUser404</profileName>
+            </replyingUser>
+            <replyBody>
+                I’ve had this same issue on my iPhone XS where the blacks have a sort of motion blur effect 
+                where when you scroll it overlaps on other colors, this does not affect older models without 
+                an oled such as the 7+ which I tested on and it did not  have this bug on that LCD.
+            </replyBody>
+            <replies>
+                <reply replyDate="Sep 29, 2019 12:32 AM">
+                    <replyingUser userId="6661">
+                        <userLevel>
+                            <levelName>Level 1</levelName>
+                            <uesrPoints>8</uesrPoints>
+                        </userLevel>
+                        <profileName>nickciava98</profileName>
+                    </replyingUser>
+                    <replyBody>
+                        Exactly, I think it is a software bug
+                    </replyBody>
+                </reply>              
+            </replies>
+        </reply>
+    </replies>
+</discussion>

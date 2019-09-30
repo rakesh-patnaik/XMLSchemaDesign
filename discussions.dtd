@@ -1,0 +1,40 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT discussion (viewCount,subject,question,postingUser,replies)>
+<!ATTLIST discussion
+  device NMTOKEN #REQUIRED
+  discussionId CDATA #REQUIRED
+  postingDate CDATA #REQUIRED
+  topic CDATA #REQUIRED>
+
+<!ELEMENT viewCount (#PCDATA)>
+
+<!ELEMENT subject (#PCDATA)>
+
+<!ELEMENT question (#PCDATA)>
+
+<!ELEMENT postingUser (userLevel,profileName)>
+<!ATTLIST postingUser
+  userId CDATA #REQUIRED>
+
+<!ELEMENT userLevel (levelName,uesrPoints)>
+
+<!ELEMENT levelName (#PCDATA)>
+
+<!ELEMENT uesrPoints (#PCDATA)>
+
+<!ELEMENT profileName (#PCDATA)>
+
+<!ELEMENT replies (reply)*>
+
+<!ELEMENT reply (replies|replyBody|replyingUser)*>
+<!ATTLIST reply
+  helpful NMTOKEN #IMPLIED
+  replyDate CDATA #REQUIRED
+  solved NMTOKEN #IMPLIED>
+
+<!ELEMENT replyBody (#PCDATA)>
+
+<!ELEMENT replyingUser (userLevel,profileName)>
+<!ATTLIST replyingUser
+  userId CDATA #REQUIRED>

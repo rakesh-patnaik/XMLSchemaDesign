@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE discussion PUBLIC "discussions.apple.com/cs598"
+  "https://raw.githubusercontent.com/rakesh-patnaik/XMLSchemaDesign/master/discussions.dtd">
+<discussion postingDate="Sep 29, 2019 11:07 AM"
+	discussionId="12345" device="iPhone" topic="iPhone Hardware">
+	<viewCount>229</viewCount>
+	<subject>Engraving</subject>
+	<question>
+		Can I have my iPhone 7 engraved after I’ve purchased it?
+	</question>
+
+	<postingUser userId="5551">
+		<userLevel>
+			<levelName>Level 1</levelName>
+			<uesrPoints>8</uesrPoints>
+		</userLevel>
+		<profileName>CXI</profileName>
+	</postingUser>
+	<replies>
+		<reply replyDate="Sep 29, 2019 11:11 AM" helpful="yes">
+			<replyingUser userId="6661">
+				<userLevel>
+					<levelName>Level 6</levelName>
+					<uesrPoints>19709</uesrPoints>
+				</userLevel>
+				<profileName>Johnathan Burger</profileName>
+			</replyingUser>
+			<replyBody>
+				Once you have. Bought it, it's yours to what you want with
+				it. Apple won't do it but you can find some who will.
+			</replyBody>
+		</reply>
+		<reply replyDate="Sep 29, 2019 12:31 PM">
+			<replyingUser userId="5551">
+				<userLevel>
+					<levelName>Level 1</levelName>
+					<uesrPoints>8</uesrPoints>
+				</userLevel>
+				<profileName>CXI</profileName>
+			</replyingUser>
+			<replyBody>
+				Thanks, but is it safe for the iPhone to do so?
+			</replyBody>
+			<replies>
+				<reply replyDate="Sep 29, 2019 12:50 PM" helpful="yes"
+					solved="yes">
+					<replyingUser userId="7771">
+						<userLevel>
+							<levelName>Level 6</levelName>
+							<uesrPoints>10213</uesrPoints>
+						</userLevel>
+						<profileName>y_p_w</profileName>
+					</replyingUser>
+					<replyBody>
+						Exactly, I think it is a software bug
+					</replyBody>
+				</reply>
+			</replies>
+		</reply>
+	</replies>
+</discussion>

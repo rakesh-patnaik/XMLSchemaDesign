@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE discussion PUBLIC "discussions.apple.com/cs598"
+  "https://raw.githubusercontent.com/rakesh-patnaik/XMLSchemaDesign/master/discussions.dtd">
+<discussion postingDate="Sep 20, 2019 4:45 AM" discussionId="443322" device="iPhone" topic="Using iPhone">
+    <viewCount>33</viewCount>
+    <subject>Unable to rearrange app icons in ios 13</subject>
+    <question>
+        After upgrading to iOS 13 and trying to rearrange app icons this is what happens: I long press the app icon and select "Rearrange Apps" from the context menu. Apps show the "x" mark and start wiggle. I try to move/rearrange an icon and after a 1-2 second delay the icon moves but then freezes on the screen without the "x" mark although all other icons wiggle. The specific app icon is no longer movable and the sliding of the screen left to right becomes sluggish. After a while, and without me being able to do anything useful the "x" marks disappear, the wiggling stops and the app icon that I intended to move stays where it was initially. Looks like a MAJOR bug in iOS.
+    </question>
+    <postingUser userId="2211">
+        <userLevel>
+            <levelName>Level 1</levelName>
+            <uesrPoints>13</uesrPoints>
+        </userLevel>
+        <profileName>DaliGR</profileName>
+    </postingUser>
+    <replies>
+        <reply replyDate="Sep 21, 2019 3:56 AM" solved="yes" helpful="yes">
+            <replyingUser userId="33221">
+                <userLevel>
+                    <levelName>Level 1</levelName>
+                    <uesrPoints>14</uesrPoints>
+                </userLevel>
+                <profileName>PaulTJ</profileName>
+            </replyingUser>
+            <replyBody>
+                SOLVED - I was having the exact same problem. I had the Zoom function enabled with the three finger double tap active in accessibility settings which was the cause of this problem. Once I disabled this in settings moving the icons around was back to normal for me - what a relief! Hope this helps others who have same issues - check your zoom settings!!
+            </replyBody>
+        </reply>
+    </replies>
+</discussion>
